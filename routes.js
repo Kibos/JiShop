@@ -11,7 +11,7 @@ module.exports = function(app) {
 
   // Insert routes below
   app.use('/api/users', require('./server/api/user'));
-
+  app.use('/api/vertifyShop', require('./server/api/vertifyShop'));
 
 
   app.use('/auth', require('./server/auth'));
