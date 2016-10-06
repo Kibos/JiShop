@@ -5,5 +5,5 @@
 
 ```
 	1.cnpm i
-	2.bower i
+	2.node app
 ```
